@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     AUTO_UPGRADE_ATTEMPTS: bool = True
     MAX_ATTEMPTS_LEVEL: int = 15
 
-    RANDOM_TAPS_COUNT: list[int] = [999999, 999999999]
+    RANDOM_TAPS_COUNT: list[int] = [999, 999999]
     SLEEP_BETWEEN_TAP: list[int] = [1, 5]
 
     USE_PROXY_FROM_FILE: bool = False
