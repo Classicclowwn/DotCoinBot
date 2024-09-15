@@ -8,9 +8,9 @@ class Settings(BaseSettings):
     API_HASH: str
 
     AUTO_UPGRADE_TAP: bool = True
-    MAX_TAP_LEVEL: int = 5
+    MAX_TAP_LEVEL: int = 15
     AUTO_UPGRADE_ATTEMPTS: bool = True
-    MAX_ATTEMPTS_LEVEL: int = 5
+    MAX_ATTEMPTS_LEVEL: int = 15
 
     RANDOM_TAPS_COUNT: list[int] = [999999, 999999999]
     SLEEP_BETWEEN_TAP: list[int] = [1, 5]
